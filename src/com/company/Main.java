@@ -13,5 +13,6 @@ public class Main {
         System.out.println(rectangle1.getArea());
         System.out.println(rectangle1.toString());
         System.out.println(square1.getPerimeter());
+        square1.text();
     }
 }

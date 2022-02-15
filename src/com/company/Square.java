@@ -6,7 +6,9 @@ public class Square extends Rectangle{
         super(color, filled, length, width);
         length=width;
     }
-
+    public void text(){
+        System.out.println("text");
+    }
 
     @Override
     public double getArea() {
